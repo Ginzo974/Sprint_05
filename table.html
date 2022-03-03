@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eu - tableau</title>
+    <style>
+      * {
+        font-family: "Montserrat", sans-serif;
+      }
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <div class="navbar-brand mx-md-5">
+          <a href="#" class="text-decoration-none text-white">EU</a>
+        </div>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navcol"
+      >
+        >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navcol"></div>
+    </nav>
+    <main class="container">
+      <h1 class="my-4">HTML presentation table</h1>
+      <table class="table table-bordered" style="width: 1000px">
+        <tr class="table-light">
+          <th>Country</th>
+          <th>Area</th>
+          <th>Population</th>
+          <th>Capital</th>
+        </tr>
+        <tbody id="tab" style="border-top-width: 0"></tbody>
+      </table>
+      <script src="table.js"></script>
+      <div>
+        <p>List of european region countries</p>
+      </div>
+    </main>
+  </body>
+</html>
