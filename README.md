@@ -2,6 +2,8 @@
 
 Voici mon projet pour le sprint 05 
 
+Pour ouvrir mon site il faut cliquer 
+
 Lien Figma Wireframe : https://www.figma.com/file/Ykijx5O0o7ZPNVMC9kxD1U/wireframe-1?node-id=0%3A1
 
 
