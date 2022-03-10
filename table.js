@@ -4,9 +4,9 @@ async function render() {
   let afficher = "";
   for (let i in recup) {
     afficher += `
-      <tr>
-        <td>${recup[i].name.official}</td> <td>${recup[i].area}</td>
-        <td>${recup[i].population}</td>
+      <tr class = text-align>
+        <td class = fw-bold>${recup[i].name.official}</td> <td class = "text-end">${recup[i].area}</td>
+        <td class = "text-end">${recup[i].population}</td>
         <td>${recup[i].capital}</td>
       </tr>
     `;
