@@ -26,7 +26,6 @@ async function render() {
     }
   } catch (e) {
     console.error(e);
-    console.log("dans l'erreur");
     let btn = document.createElement("button");
     let text = document.createTextNode("refresh table");
     btn.appendChild(text);
